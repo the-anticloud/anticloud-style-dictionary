@@ -1,0 +1,25 @@
+# Tutorial — Developers — STYLE_DICTIONARY
+
+**Company:** Anticloud FZ LLE
+**Model:** PAX L5 Narrow L2 General 27B
+**Project:** STYLE_DICTIONARY | Category: DESIGN_TOOLS
+**Upstream:** https://github.com/nicolo-ribaudo/style-dictionary (Apache 2.0)
+
+## Overview
+
+This document covers tutorial — developers for the Anticloud integration of STYLE_DICTIONARY.
+
+Design token management
+
+## Anticloud Integration
+
+PAX L5 Narrow L2 General 27B is integrated into STYLE_DICTIONARY to provide:
+- Local AI inference with zero cloud dependency
+- AIOSS tamper-evident audit chain
+- AES-256 encryption at rest
+- Single-binary deployment
+
+## Contact
+
+Lois-Kleinner Alpasan — CEO & CTO, Anticloud FZ LLE
+lois@0-1.gg | 0-1.gg
