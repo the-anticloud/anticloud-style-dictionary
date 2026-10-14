@@ -1,0 +1,614 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:e79d843a-8811-561e-8164-358b2375a3de",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T16:39:02Z",
+  "component": {
+   "type": "application",
+   "name": "STYLE_DICTIONARY",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/STYLE_DICTIONARY@83b357604d34",
+   "purl": "pkg:generic/anticloud/STYLE_DICTIONARY@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@bundled-es-modules/deepmerge",
+   "version": "^4.3.2",
+   "purl": "pkg:npm/@bundled-es-modules/deepmerge@^4.3.2",
+   "bom-ref": "npm/@bundled-es-modules/deepmerge@^4.3.2"
+  },
+  {
+   "type": "library",
+   "name": "@bundled-es-modules/glob",
+   "version": "^13.0.6-hotfix.0",
+   "purl": "pkg:npm/@bundled-es-modules/glob@^13.0.6-hotfix.0",
+   "bom-ref": "npm/@bundled-es-modules/glob@^13.0.6-hotfix.0"
+  },
+  {
+   "type": "library",
+   "name": "@bundled-es-modules/memfs",
+   "version": "^4.17.0",
+   "purl": "pkg:npm/@bundled-es-modules/memfs@^4.17.0",
+   "bom-ref": "npm/@bundled-es-modules/memfs@^4.17.0"
+  },
+  {
+   "type": "library",
+   "name": "@zip.js/zip.js",
+   "version": "^2.7.44",
+   "purl": "pkg:npm/@zip.js/zip.js@^2.7.44",
+   "bom-ref": "npm/@zip.js/zip.js@^2.7.44"
+  },
+  {
+   "type": "library",
+   "name": "chalk",
+   "version": "^5.3.0",
+   "purl": "pkg:npm/chalk@^5.3.0",
+   "bom-ref": "npm/chalk@^5.3.0"
+  },
+  {
+   "type": "library",
+   "name": "change-case",
+   "version": "^5.3.0",
+   "purl": "pkg:npm/change-case@^5.3.0",
+   "bom-ref": "npm/change-case@^5.3.0"
+  },
+  {
+   "type": "library",
+   "name": "colorjs.io",
+   "version": "^0.5.2",
+   "purl": "pkg:npm/colorjs.io@^0.5.2",
+   "bom-ref": "npm/colorjs.io@^0.5.2"
+  },
+  {
+   "type": "library",
+   "name": "commander",
+   "version": "^12.1.0",
+   "purl": "pkg:npm/commander@^12.1.0",
+   "bom-ref": "npm/commander@^12.1.0"
+  },
+  {
+   "type": "library",
+   "name": "is-plain-obj",
+   "version": "^4.1.0",
+   "purl": "pkg:npm/is-plain-obj@^4.1.0",
+   "bom-ref": "npm/is-plain-obj@^4.1.0"
+  },
+  {
+   "type": "library",
+   "name": "json5",
+   "version": "^2.2.2",
+   "purl": "pkg:npm/json5@^2.2.2",
+   "bom-ref": "npm/json5@^2.2.2"
+  },
+  {
+   "type": "library",
+   "name": "path-unified",
+   "version": "^0.2.0",
+   "purl": "pkg:npm/path-unified@^0.2.0",
+   "bom-ref": "npm/path-unified@^0.2.0"
+  },
+  {
+   "type": "library",
+   "name": "prettier",
+   "version": "^3.3.3",
+   "purl": "pkg:npm/prettier@^3.3.3",
+   "bom-ref": "npm/prettier@^3.3.3"
+  },
+  {
+   "type": "library",
+   "name": "tinycolor2",
+   "version": "^1.6.0",
+   "purl": "pkg:npm/tinycolor2@^1.6.0",
+   "bom-ref": "npm/tinycolor2@^1.6.0"
+  },
+  {
+   "type": "library",
+   "name": "@astrojs/check",
+   "version": "^0.9.10",
+   "purl": "pkg:npm/@astrojs/check@^0.9.10",
+   "bom-ref": "npm/@astrojs/check@^0.9.10"
+  },
+  {
+   "type": "library",
+   "name": "@astrojs/markdown-remark",
+   "version": "^7.3.1",
+   "purl": "pkg:npm/@astrojs/markdown-remark@^7.3.1",
+   "bom-ref": "npm/@astrojs/markdown-remark@^7.3.1"
+  },
+  {
+   "type": "library",
+   "name": "@astrojs/starlight",
+   "version": "^0.42.1",
+   "purl": "pkg:npm/@astrojs/starlight@^0.42.1",
+   "bom-ref": "npm/@astrojs/starlight@^0.42.1"
+  },
+  {
+   "type": "library",
+   "name": "@changesets/cli",
+   "version": "^2.27.1",
+   "purl": "pkg:npm/@changesets/cli@^2.27.1",
+   "bom-ref": "npm/@changesets/cli@^2.27.1"
+  },
+  {
+   "type": "library",
+   "name": "@commitlint/cli",
+   "version": "^21.0.1",
+   "purl": "pkg:npm/@commitlint/cli@^21.0.1",
+   "bom-ref": "npm/@commitlint/cli@^21.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@commitlint/config-conventional",
+   "version": "^21.0.1",
+   "purl": "pkg:npm/@commitlint/config-conventional@^21.0.1",
+   "bom-ref": "npm/@commitlint/config-conventional@^21.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@esm-bundle/chai-as-promised",
+   "version": "^7.1.1",
+   "purl": "pkg:npm/@esm-bundle/chai-as-promised@^7.1.1",
+   "bom-ref": "npm/@esm-bundle/chai-as-promised@^7.1.1"
+  },
+  {
+   "type": "library",
+   "name": "@rollup/browser",
+   "version": "^4.13.1",
+   "purl": "pkg:npm/@rollup/browser@^4.13.1",
+   "bom-ref": "npm/@rollup/browser@^4.13.1"
+  },
+  {
+   "type": "library",
+   "name": "@rollup/plugin-virtual",
+   "version": "^3.0.2",
+   "purl": "pkg:npm/@rollup/plugin-virtual@^3.0.2",
+   "bom-ref": "npm/@rollup/plugin-virtual@^3.0.2"
+  },
+  {
+   "type": "library",
+   "name": "@shoelace-style/shoelace",
+   "version": "^2.15.0",
+   "purl": "pkg:npm/@shoelace-style/shoelace@^2.15.0",
+   "bom-ref": "npm/@shoelace-style/shoelace@^2.15.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/chai",
+   "version": "^4.3.9",
+   "purl": "pkg:npm/@types/chai@^4.3.9",
+   "bom-ref": "npm/@types/chai@^4.3.9"
+  },
+  {
+   "type": "library",
+   "name": "@types/node",
+   "version": "^22.10.5",
+   "purl": "pkg:npm/@types/node@^22.10.5",
+   "bom-ref": "npm/@types/node@^22.10.5"
+  },
+  {
+   "type": "library",
+   "name": "@types/tinycolor2",
+   "version": "^1.4.6",
+   "purl": "pkg:npm/@types/tinycolor2@^1.4.6",
+   "bom-ref": "npm/@types/tinycolor2@^1.4.6"
+  },
+  {
+   "type": "library",
+   "name": "@types/uuid",
+   "version": "^9.0.8",
+   "purl": "pkg:npm/@types/uuid@^9.0.8",
+   "bom-ref": "npm/@types/uuid@^9.0.8"
+  },
+  {
+   "type": "library",
+   "name": "@typescript-eslint/parser",
+   "version": "^8.22.0",
+   "purl": "pkg:npm/@typescript-eslint/parser@^8.22.0",
+   "bom-ref": "npm/@typescript-eslint/parser@^8.22.0"
+  },
+  {
+   "type": "library",
+   "name": "@web/test-runner",
+   "version": "^1.0.0",
+   "purl": "pkg:npm/@web/test-runner@^1.0.0",
+   "bom-ref": "npm/@web/test-runner@^1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@web/test-runner-commands",
+   "version": "^1.0.1",
+   "purl": "pkg:npm/@web/test-runner-commands@^1.0.1",
+   "bom-ref": "npm/@web/test-runner-commands@^1.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@web/test-runner-playwright",
+   "version": "^0.11.0",
+   "purl": "pkg:npm/@web/test-runner-playwright@^0.11.0",
+   "bom-ref": "npm/@web/test-runner-playwright@^0.11.0"
+  },
+  {
+   "type": "library",
+   "name": "acorn",
+   "version": "^8.11.3",
+   "purl": "pkg:npm/acorn@^8.11.3",
+   "bom-ref": "npm/acorn@^8.11.3"
+  },
+  {
+   "type": "library",
+   "name": "astro",
+   "version": "^7.3.3",
+   "purl": "pkg:npm/astro@^7.3.3",
+   "bom-ref": "npm/astro@^7.3.3"
+  },
+  {
+   "type": "library",
+   "name": "chai",
+   "version": "^6.2.2",
+   "purl": "pkg:npm/chai@^6.2.2",
+   "bom-ref": "npm/chai@^6.2.2"
+  },
+  {
+   "type": "library",
+   "name": "eslint",
+   "version": "^9.19.0",
+   "purl": "pkg:npm/eslint@^9.19.0",
+   "bom-ref": "npm/eslint@^9.19.0"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-mocha",
+   "version": "^10.5.0",
+   "purl": "pkg:npm/eslint-plugin-mocha@^10.5.0",
+   "bom-ref": "npm/eslint-plugin-mocha@^10.5.0"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-react",
+   "version": "^7.37.4",
+   "purl": "pkg:npm/eslint-plugin-react@^7.37.4",
+   "bom-ref": "npm/eslint-plugin-react@^7.37.4"
+  },
+  {
+   "type": "library",
+   "name": "estree-walker",
+   "version": "^3.0.3",
+   "purl": "pkg:npm/estree-walker@^3.0.3",
+   "bom-ref": "npm/estree-walker@^3.0.3"
+  },
+  {
+   "type": "library",
+   "name": "fs-extra",
+   "version": "^10.0.0",
+   "purl": "pkg:npm/fs-extra@^10.0.0",
+   "bom-ref": "npm/fs-extra@^10.0.0"
+  },
+  {
+   "type": "library",
+   "name": "hanbi",
+   "version": "^1.0.1",
+   "purl": "pkg:npm/hanbi@^1.0.1",
+   "bom-ref": "npm/hanbi@^1.0.1"
+  },
+  {
+   "type": "library",
+   "name": "husky",
+   "version": "^8.0.3",
+   "purl": "pkg:npm/husky@^8.0.3",
+   "bom-ref": "npm/husky@^8.0.3"
+  },
+  {
+   "type": "library",
+   "name": "less",
+   "version": "^4.1.2",
+   "purl": "pkg:npm/less@^4.1.2",
+   "bom-ref": "npm/less@^4.1.2"
+  },
+  {
+   "type": "library",
+   "name": "lint-staged",
+   "version": "^12.3.1",
+   "purl": "pkg:npm/lint-staged@^12.3.1",
+   "bom-ref": "npm/lint-staged@^12.3.1"
+  },
+  {
+   "type": "library",
+   "name": "lit",
+   "version": "^3.1.2",
+   "purl": "pkg:npm/lit@^3.1.2",
+   "bom-ref": "npm/lit@^3.1.2"
+  },
+  {
+   "type": "library",
+   "name": "mdast",
+   "version": "^3.0.0",
+   "purl": "pkg:npm/mdast@^3.0.0",
+   "bom-ref": "npm/mdast@^3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "mermaid",
+   "version": "^11.12.3",
+   "purl": "pkg:npm/mermaid@^11.12.3",
+   "bom-ref": "npm/mermaid@^11.12.3"
+  },
+  {
+   "type": "library",
+   "name": "mocha",
+   "version": "^12.0.0-beta-10",
+   "purl": "pkg:npm/mocha@^12.0.0-beta-10",
+   "bom-ref": "npm/mocha@^12.0.0-beta-10"
+  },
+  {
+   "type": "library",
+   "name": "monaco-editor",
+   "version": "^0.47.0",
+   "purl": "pkg:npm/monaco-editor@^0.47.0",
+   "bom-ref": "npm/monaco-editor@^0.47.0"
+  },
+  {
+   "type": "library",
+   "name": "npm-run-all",
+   "version": "^4.1.5",
+   "purl": "pkg:npm/npm-run-all@^4.1.5",
+   "bom-ref": "npm/npm-run-all@^4.1.5"
+  },
+  {
+   "type": "library",
+   "name": "patch-package",
+   "version": "^8.0.1",
+   "purl": "pkg:npm/patch-package@^8.0.1",
+   "bom-ref": "npm/patch-package@^8.0.1"
+  },
+  {
+   "type": "library",
+   "name": "sass",
+   "version": "^1.69.5",
+   "purl": "pkg:npm/sass@^1.69.5",
+   "bom-ref": "npm/sass@^1.69.5"
+  },
+  {
+   "type": "library",
+   "name": "semver",
+   "version": "^7.6.3",
+   "purl": "pkg:npm/semver@^7.6.3",
+   "bom-ref": "npm/semver@^7.6.3"
+  },
+  {
+   "type": "library",
+   "name": "sharp",
+   "version": "^0.35.3",
+   "purl": "pkg:npm/sharp@^0.35.3",
+   "bom-ref": "npm/sharp@^0.35.3"
+  },
+  {
+   "type": "library",
+   "name": "starlight-links-validator",
+   "version": "^0.24.0",
+   "purl": "pkg:npm/starlight-links-validator@^0.24.0",
+   "bom-ref": "npm/starlight-links-validator@^0.24.0"
+  },
+  {
+   "type": "library",
+   "name": "typescript",
+   "version": "^5.7.2",
+   "purl": "pkg:npm/typescript@^5.7.2",
+   "bom-ref": "npm/typescript@^5.7.2"
+  },
+  {
+   "type": "library",
+   "name": "unist-util-visit",
+   "version": "^5.0.0",
+   "purl": "pkg:npm/unist-util-visit@^5.0.0",
+   "bom-ref": "npm/unist-util-visit@^5.0.0"
+  },
+  {
+   "type": "library",
+   "name": "uuid",
+   "version": "^14.0.0",
+   "purl": "pkg:npm/uuid@^14.0.0",
+   "bom-ref": "npm/uuid@^14.0.0"
+  },
+  {
+   "type": "library",
+   "name": "yaml",
+   "version": "^2.3.4",
+   "purl": "pkg:npm/yaml@^2.3.4",
+   "bom-ref": "npm/yaml@^2.3.4"
+  },
+  {
+   "type": "library",
+   "name": "style-dictionary",
+   "version": "^4.0.0-prerelease.30",
+   "purl": "pkg:npm/style-dictionary@^4.0.0-prerelease.30",
+   "bom-ref": "npm/style-dictionary@^4.0.0-prerelease.30"
+  },
+  {
+   "type": "library",
+   "name": "tailwindcss",
+   "version": "^3.4.15",
+   "purl": "pkg:npm/tailwindcss@^3.4.15",
+   "bom-ref": "npm/tailwindcss@^3.4.15"
+  },
+  {
+   "type": "library",
+   "name": "aws-sdk",
+   "version": "^2.7.21",
+   "purl": "pkg:npm/aws-sdk@^2.7.21",
+   "bom-ref": "npm/aws-sdk@^2.7.21"
+  },
+  {
+   "type": "library",
+   "name": "expo",
+   "version": "~40.0.0",
+   "purl": "pkg:npm/expo@~40.0.0",
+   "bom-ref": "npm/expo@~40.0.0"
+  },
+  {
+   "type": "library",
+   "name": "expo-cli",
+   "version": "^4.0.13",
+   "purl": "pkg:npm/expo-cli@^4.0.13",
+   "bom-ref": "npm/expo-cli@^4.0.13"
+  },
+  {
+   "type": "library",
+   "name": "expo-splash-screen",
+   "version": "~0.8.0",
+   "purl": "pkg:npm/expo-splash-screen@~0.8.0",
+   "bom-ref": "npm/expo-splash-screen@~0.8.0"
+  },
+  {
+   "type": "library",
+   "name": "expo-status-bar",
+   "version": "~1.0.3",
+   "purl": "pkg:npm/expo-status-bar@~1.0.3",
+   "bom-ref": "npm/expo-status-bar@~1.0.3"
+  },
+  {
+   "type": "library",
+   "name": "expo-updates",
+   "version": "~0.4.0",
+   "purl": "pkg:npm/expo-updates@~0.4.0",
+   "bom-ref": "npm/expo-updates@~0.4.0"
+  },
+  {
+   "type": "library",
+   "name": "react",
+   "version": "16.13.1",
+   "purl": "pkg:npm/react@16.13.1",
+   "bom-ref": "npm/react@16.13.1"
+  },
+  {
+   "type": "library",
+   "name": "react-dom",
+   "version": "16.13.1",
+   "purl": "pkg:npm/react-dom@16.13.1",
+   "bom-ref": "npm/react-dom@16.13.1"
+  },
+  {
+   "type": "library",
+   "name": "react-native",
+   "version": "^0.69.4",
+   "purl": "pkg:npm/react-native@^0.69.4",
+   "bom-ref": "npm/react-native@^0.69.4"
+  },
+  {
+   "type": "library",
+   "name": "react-native-gesture-handler",
+   "version": "~1.8.0",
+   "purl": "pkg:npm/react-native-gesture-handler@~1.8.0",
+   "bom-ref": "npm/react-native-gesture-handler@~1.8.0"
+  },
+  {
+   "type": "library",
+   "name": "react-native-reanimated",
+   "version": "~2.13.0",
+   "purl": "pkg:npm/react-native-reanimated@~2.13.0",
+   "bom-ref": "npm/react-native-reanimated@~2.13.0"
+  },
+  {
+   "type": "library",
+   "name": "react-native-screens",
+   "version": "~2.15.0",
+   "purl": "pkg:npm/react-native-screens@~2.15.0",
+   "bom-ref": "npm/react-native-screens@~2.15.0"
+  },
+  {
+   "type": "library",
+   "name": "react-native-unimodules",
+   "version": "~0.12.0",
+   "purl": "pkg:npm/react-native-unimodules@~0.12.0",
+   "bom-ref": "npm/react-native-unimodules@~0.12.0"
+  },
+  {
+   "type": "library",
+   "name": "react-native-web",
+   "version": "~0.13.12",
+   "purl": "pkg:npm/react-native-web@~0.13.12",
+   "bom-ref": "npm/react-native-web@~0.13.12"
+  },
+  {
+   "type": "library",
+   "name": "@babel/core",
+   "version": "~7.9.0",
+   "purl": "pkg:npm/@babel/core@~7.9.0",
+   "bom-ref": "npm/@babel/core@~7.9.0"
+  },
+  {
+   "type": "library",
+   "name": "babel-jest",
+   "version": "~25.2.6",
+   "purl": "pkg:npm/babel-jest@~25.2.6",
+   "bom-ref": "npm/babel-jest@~25.2.6"
+  },
+  {
+   "type": "library",
+   "name": "eslint-config-react-app",
+   "version": "^7.0.1",
+   "purl": "pkg:npm/eslint-config-react-app@^7.0.1",
+   "bom-ref": "npm/eslint-config-react-app@^7.0.1"
+  },
+  {
+   "type": "library",
+   "name": "jest",
+   "version": "~25.2.6",
+   "purl": "pkg:npm/jest@~25.2.6",
+   "bom-ref": "npm/jest@~25.2.6"
+  },
+  {
+   "type": "library",
+   "name": "react-test-renderer",
+   "version": "~16.13.1",
+   "purl": "pkg:npm/react-test-renderer@~16.13.1",
+   "bom-ref": "npm/react-test-renderer@~16.13.1"
+  },
+  {
+   "type": "library",
+   "name": "dart-sass",
+   "version": "^1.25.0",
+   "purl": "pkg:npm/dart-sass@^1.25.0",
+   "bom-ref": "npm/dart-sass@^1.25.0"
+  },
+  {
+   "type": "library",
+   "name": "react-scripts",
+   "version": "^5.0.1",
+   "purl": "pkg:npm/react-scripts@^5.0.1",
+   "bom-ref": "npm/react-scripts@^5.0.1"
+  },
+  {
+   "type": "library",
+   "name": "styled-components",
+   "version": "^5.3.0",
+   "purl": "pkg:npm/styled-components@^5.3.0",
+   "bom-ref": "npm/styled-components@^5.3.0"
+  }
+ ],
+ "sha_unverified": true
+}
